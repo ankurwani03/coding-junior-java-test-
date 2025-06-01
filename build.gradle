@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '1.15.0'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+intellij {
+    version = '2022.2.5'
+    type = 'IC'
+    plugins = ['java', 'Kotlin']
+}
+
+compileJava {
+    sourceCompatibility = '11'
+    targetCompatibility = '11'
+}

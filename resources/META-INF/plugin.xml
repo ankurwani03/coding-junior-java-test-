@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.example.todofinder</id>
+    <name>Todo Finder</name>
+    <version>1.0</version>
+    <vendor email="ankur.wani@somaiya.edu" url="https://somaiya.com">Ankur Wani</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindowFactory
+                id="Todo Finder"
+                anchor="right"
+                factoryClass="com.example.todofinder.TodoToolWindowFactory"/>
+    </extensions>
+
+    <applicationListeners>
+        <listener class="com.example.todofinder.TodoFinderStartupActivity"
+                  topic="com.intellij.openapi.startup.StartupActivity"/>
+    </applicationListeners>
+</idea-plugin>
