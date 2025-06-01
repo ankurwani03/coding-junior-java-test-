@@ -1,4 +1,5 @@
 ﻿# coding-junior-java-test-
+ <h1> To-Do Finder IntelliJ Plugin</h1>
 Project Description:
 To-Do Finder is a lightweight IntelliJ IDEA plugin designed to help developers easily locate and manage TODO comments across their codebase. This tool enhances developer productivity by scanning project files for TODO tags and presenting them in a structured and user-friendly tool window within the IDE.
 </br>
